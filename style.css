@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    width: 70%;
+  }
+  
+  .input {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 28px;
+    padding-left: 2.5rem;
+    box-shadow: 0 0 0 1.5px #2b2c37, 0 0 25px -17px #000;
+    border: 0;
+    border-radius: 12px;
+    background-color: #16171d;
+    outline: none;
+    color: #bdbecb;
+    transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: text;
+    z-index: 0;
+  }
+  
+  .input::placeholder {
+    color: #bdbecb;
+  }
+  
+  .input:hover {
+    box-shadow: 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000;
+  }
+  
+  .input:active {
+    transform: scale(0.95);
+  }
+  
+  .input:focus {
+    box-shadow: 0 0 0 2.5px #2f303d;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 1rem;
+    fill: #bdbecb;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    z-index: 1;
+  }
+.icons li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+.icons i:hover{
+    text-decoration: underline;
+    color: #850216;
+}
+.titulo{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background-image: url(img/chopims-bg.gif);
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+}
+.titulo h1{
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.divisao{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+.colecao{
+    margin: 10px;
+    padding: 5px;
+}
+.colecao h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    margin: 5px 0 10px ;
+}
+.colecao h2:hover{
+    color: #850216;
+}
+.faixa-produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.produtos{
+    width: 110px;
+    height: 100px;
+    background-color: #dfdfdf;
+    border-radius: 15px;
+    padding: 5px;
+}
+.produtos img, .travis img{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#travis{
+    background-image: url(img/travis/travis-bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 7px;
+    padding: 10px;
+}
+.travis{
+    background-color: rgba(0, 0, 0, .5);
+    width: 110px;
+    height: 100px;
+    border-radius: 15px;
+    padding: 5px;
+}
+footer{
+  background-color: #000;
+  color: #fff;
+}
+.contatos{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram{
+  background: linear-gradient(#833AB4, #C13584, #FCAF45);
+  background-clip: text;
+  color: transparent;
+  width: 40px;
+  display: inline-flex;
+}
+.fa-whatsapp{
+  color: green;
+}
